@@ -1,0 +1,86 @@
+
+.fdiv{
+  position :relative;
+  top : 350px;
+  padding : 10px;
+}
+body{
+  background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+  color:white;
+  font-family: sans-serif;
+}
+.fform{
+  border-width: 5px;
+  border-style:inset;
+  border-color:#A239EA;
+  border-radius : 20px;
+  background-color: rgba(69, 23, 29, 0.7);
+padding : 100px;
+margin-left: 500px;
+margin-right: 500px;
+position: relative;
+bottom : 150px;
+}
+.user{
+  padding : 5px;
+  margin : 10px;
+  background-color: rgba(69, 23, 29, 0.0);
+  outline:none;
+  border-width:3px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: red;
+  border-style : groove;
+  color : #F2D974;
+}
+.pass{
+  padding : 5px;
+  margin: 10px;
+  background-color: rgba(69, 23, 29, 0.0);
+  border-width:3px;
+  border-top: 0;
+  border-left : 0;
+  border-right :0;
+  border-color:green;
+  outline: none;
+  border-style :groove;
+  color:#F2D974;
+}
+.btn{
+ background-color: rgba(69, 23, 29, 0.5);
+ border-width : 3px;
+ border-radius : 10px;
+ width : 100px;
+ margin : 10px;
+}
+h3{
+  text-decoration: underline;
+  color : #C6FFC1;
+}
+.user:hover{
+  border-bottom-width: 5px;
+}
+.pass:hover{
+  border-bottom-width:5px;
+}
+.btn:focus{
+  background-color:#FF8303;
+}
+.btn:hover{
+  background-color:#FF8303;
+}
+.user:focus{
+  border-bottom-width : 5px;
+}
+.pass:focus{
+  border-bottom-width:5px;
+}
+.anchor1{
+  color  : #FF8882;
+}
+.copy{
+  position: relative;
+  top:250px;
+  color : black;
+}
